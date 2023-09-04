@@ -1,8 +1,61 @@
+body {
+    background: #f7f7f7;
+    font-family: verdana, arial;
+}
+
 #title, .subtitle, .post_title {
-    color:blue;
+    color: #505050;
+}
+
+#title{
+    font-size: 44px;
+    text-transform: capitalize;
+}
+
+a {
+    color:#505050;
 }
 
 .post_title{
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+#photo{
+    border: 1px solid #505050;
+    border-radius: 50%;
+}
+
+.post {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+/* add uppercase and "drop cap" on posts first letter */
+.post_content::first-letter{
+    font-family: 'Times New Roman',serif,arial;
+    color: #900;
+    font-size: 40px;
+    float: left;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+.post_img{
+    margin: 0;
+    margin-bottom: 15px;
 }
