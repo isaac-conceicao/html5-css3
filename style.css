@@ -1,6 +1,19 @@
 body {
     background: #f7f7f7;
     font-family: verdana, arial;
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+}
+
+header{
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header header{
+    vertical-align: auto;
 }
 
 #title, .subtitle, .post_title {
@@ -12,8 +25,13 @@ body {
     text-transform: capitalize;
 }
 
-a {
-    color:#505050;
+a{
+    color: rgb(0, 0, 207);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .post_title{
@@ -58,4 +76,14 @@ a {
 .post_img{
     margin: 0;
     margin-bottom: 15px;
+    max-width: 100%;
+}
+
+.contacts_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+.contacts_list li{
+    display: flex;
+    align-items: center;
 }
